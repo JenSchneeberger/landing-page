@@ -30,3 +30,31 @@ ul {
     text-decoration: none;
     color: #E5E7EB;
   }
+
+  img {
+    width: 400px;
+    height: auto;
+  }
+
+.content-one {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.container-one {
+    display: flex;
+    justify-content: space-between;
+    padding: 36px 100px;
+    gap: 36px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    width: 100px;
+    padding: 6px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+}
