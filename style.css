@@ -1,8 +1,18 @@
 * {
-    font-family: monospace;
+    font-family: Roboto;
 }
-
 
 .header  {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
 }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+  }
