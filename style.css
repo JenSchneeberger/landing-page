@@ -73,7 +73,7 @@ ul {
 
 .pics {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     gap: 52px;
     padding: 30px 100px;
@@ -88,6 +88,8 @@ ul {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    font-size: 15px;
+    color: grey;
   }
 
 .title {
