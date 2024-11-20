@@ -1,5 +1,6 @@
 * {
-    font-family: Roboto;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    box-sizing: border-box;
 }
 
 .header  {
@@ -13,11 +14,13 @@
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    font-style: italic;
 }
 
 ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     margin: 0;
     padding: 0;
@@ -31,8 +34,8 @@ ul {
     color: #E5E7EB;
   }
 
-  img {
-    width: 400px;
+  .wet-leaf {
+    max-width: 500px;
     height: auto;
   }
 
@@ -40,6 +43,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 50%;
+    
 }
 
 .container-one {
@@ -49,6 +53,7 @@ ul {
     gap: 36px;
     background-color: #1F2937;
     color: white;
+    flex-wrap: wrap;
 }
 
 .sign-up {
@@ -57,4 +62,64 @@ ul {
     padding: 6px 10px;
     font-size: 18px;
     border-radius: 10px;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+.pics {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 52px;
+    padding: 30px 100px;
+  }
+
+.info {
+    display: flex;
+    width: 22%;
+    height: auto;
+    gap: 16px;
+    padding: 8px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+.title {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  /* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .container-one {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .content-one {
+        max-width: 100%; /* Let the content take full width on smaller screens */
+        margin-right: 0;
+    }
+
+    .pics {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center;
+    }
+
+    .info {
+        width: 100%; /* Make the info divs take full width on smaller screens */
+        margin-bottom: 20px;
+    }
 }
