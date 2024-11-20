@@ -124,6 +124,26 @@ ul {
     background-color: #E5E7EB;
  }
 
+ .container-four {
+    padding: 36px 72px;
+ }
+
+ .bluebox {
+    display: flex;
+    padding: 18px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+ }
+
+ .sign-up {
+    color: white;
+    border: white;
+    border-width: 1em;
+ }
+
+
+
   /* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .container-one {
