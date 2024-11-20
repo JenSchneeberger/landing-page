@@ -103,6 +103,27 @@ ul {
     margin: 20px;
   }
 
+ .testimonial, .name {
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 300;
+    padding: 2px 100px;
+    background-color: #E5E7EB;
+    padding-top: 30px;
+ } 
+
+ .name {
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    padding-left: 300px;
+ }
+
+ .container-three {
+    background-color: #E5E7EB;
+ }
+
   /* Responsive design for smaller screens */
 @media (max-width: 768px) {
     .container-one {
