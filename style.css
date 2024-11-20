@@ -134,14 +134,22 @@ ul {
     justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
+    border-radius: 10px;
  }
 
  .sign-up {
     color: white;
-    border: white;
-    border-width: 1em;
+    background-color: #1F2937;
  }
 
+ .contact-one {
+    font-size: 22px;
+    font-weight: 800;
+ }
+
+ .contact-two {
+    font-size: 18px;
+ }
 
 
   /* Responsive design for smaller screens */
