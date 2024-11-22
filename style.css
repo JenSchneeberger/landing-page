@@ -43,7 +43,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 50%;
-    
+    justify-content: space-evenly;
 }
 
 .container-one {
@@ -56,7 +56,7 @@ ul {
     flex-wrap: wrap;
 }
 
-.sign-up {
+.sign-up-one {
     background-color: #3882F6;
     width: 100px;
     padding: 6px 10px;
@@ -125,7 +125,7 @@ ul {
  }
 
  .container-four {
-    padding: 36px 72px;
+    padding: 72px;
  }
 
  .bluebox {
@@ -139,7 +139,12 @@ ul {
 
  .sign-up {
     color: white;
-    background-color: #1F2937;
+    background-color: #3882F6;
+    width: 100px;
+    padding: 6px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid white;
  }
 
  .contact-one {
@@ -149,6 +154,16 @@ ul {
 
  .contact-two {
     font-size: 18px;
+ }
+
+ .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 12px;
+    padding: 14px;
  }
 
 
